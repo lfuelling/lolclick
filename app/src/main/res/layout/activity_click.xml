@@ -15,7 +15,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display3"
         android:text="@string/start_clicking"
         android:textAlignment="center"
         android:id="@+id/scoreView"
@@ -28,4 +28,15 @@
         android:layout_centerVertical="true"
         android:id="@+id/click_btn"
         android:background="@mipmap/ic_alone"/>
+
+    <ImageView
+        android:layout_width="@dimen/multi_size"
+        android:layout_height="@dimen/multi_size"
+        android:id="@+id/multiplierView"
+        android:src="@mipmap/multi2x"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"/>
+
 </RelativeLayout>

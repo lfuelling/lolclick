@@ -2,4 +2,5 @@
     <string name="app_name">lolClick</string>
     <string name="start_clicking">Start Clicking</string>
     <string name="keep_going">Keep Going!</string>
+    <string name="not_supported">Whoops, your phone can display this phony notifications but is unable to load Textures properly. :c</string>
 </resources>
