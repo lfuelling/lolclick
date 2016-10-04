@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lolClick</string>
+    <string name="start_clicking">Start Clicking</string>
+    <string name="keep_going">Keep Going!</string>
+</resources>
